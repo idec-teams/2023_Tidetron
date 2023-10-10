@@ -1,5 +1,6 @@
 # Our Team
-![team](docs/img/iDEC_team.jpg)
+![team](img/iDEC_team.jpg)
+
 WU, Yirui
 Role: Supervisor
 Age: 37
