@@ -1,7 +1,7 @@
 # Our Team
 ![team](img/iDEC_team.jpg)
 
-WU, Yirui
+WU, Yirui\
 Role: Supervisor
 Age: 37
 Degree: Doctor of Philosophy (Ph.D.) in Biotechnology
