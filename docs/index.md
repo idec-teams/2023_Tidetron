@@ -19,4 +19,4 @@ We obtained the T7 RNAP mutant, which possessed 2.3-fold higher performance in C
 
 **Keywords**: Collagens, ARTP-PANCE, TADR-FADS, T7 RNAP, Proline hydroxylase, CFPS, self-circularized ribozyme
   
-![Project_outline]()
+![Project_outline](img/GRAPHICAL ASBRACT)
