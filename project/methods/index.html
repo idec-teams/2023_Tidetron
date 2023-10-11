@@ -1,0 +1,970 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../background/">
+      
+      
+        <link rel="next" href="../results/">
+      
+      
+      <link rel="icon" href="../../img/idec-wiki-logo.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.5">
+    
+    
+      
+        <title>Methods - iDEC 2023 | Tidetron</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6a10b989.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.356b1318.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="light-blue" data-md-color-accent="blue">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#materials-and-methods" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="iDEC 2023 | Tidetron" class="md-header__button md-logo" aria-label="iDEC 2023 | Tidetron" data-md-component="logo">
+      
+  <img src="../../img/idec-wiki-logo-white-bg.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            iDEC 2023 | Tidetron
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Methods
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/idec-teams/2023_Tidetron" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="iDEC 2023 | Tidetron" class="md-nav__button md-logo" aria-label="iDEC 2023 | Tidetron" data-md-component="logo">
+      
+  <img src="../../img/idec-wiki-logo-white-bg.png" alt="logo">
+
+    </a>
+    iDEC 2023 | Tidetron
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/idec-teams/2023_Tidetron" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../team/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Team
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Project
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Project
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../background/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Background
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Methods
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Methods
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#analysis-of-collagen-family-expression-and-function" class="md-nav__link">
+    Analysis of collagen family expression and function
+  </a>
+  
+    <nav class="md-nav" aria-label="Analysis of collagen family expression and function">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#transcriptomic-and-proteomic-analysis-of-human-tissue-cells" class="md-nav__link">
+    Transcriptomic and proteomic analysis of human tissue cells
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tertiary-structure-prediction-by-alphafold2-and-amino-acid-mutation-analysis" class="md-nav__link">
+    Tertiary structure prediction by AlphaFold2 and amino acid mutation analysis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#physiological-and-pathological-analysis" class="md-nav__link">
+    Physiological and pathological analysis
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#strains-and-plasmids" class="md-nav__link">
+    Strains and plasmids
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#artp-pance-for-screening-intein-and-t7-rnap-mutants-in-vivo" class="md-nav__link">
+    ARTP-PANCE for screening intein and T7 RNAP mutants in vivo
+  </a>
+  
+    <nav class="md-nav" aria-label="ARTP-PANCE for screening intein and T7 RNAP mutants in vivo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#inactive-kanamycin-resistance-gene-recovery-experiment" class="md-nav__link">
+    Inactive kanamycin resistance gene recovery experiment
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#primary-m13-phage-preparation" class="md-nav__link">
+    Primary M13 phage preparation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#process-of-artp-pance" class="md-nav__link">
+    Process of ARTP-PANCE
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#activity-assay-of-mxe-gyra-intein" class="md-nav__link">
+    Activity assay of Mxe GyrA intein
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#activity-assay-of-t7-rna-polymerase" class="md-nav__link">
+    Activity assay of T7 RNA polymerase
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#collagen-and-elastin-purification" class="md-nav__link">
+    Collagen and elastin purification
+  </a>
+  
+    <nav class="md-nav" aria-label="Collagen and elastin purification">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#chromatography-free-purification-method-for-collagen-tripeptide-mediated-by-intein" class="md-nav__link">
+    Chromatography-free purification method for collagen tripeptide mediated by intein
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#collagen-and-elastin-purification-by-affinity-chromatography" class="md-nav__link">
+    Collagen and elastin purification by affinity chromatography
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crispr-associated-transposon" class="md-nav__link">
+    CRISPR-associated transposon
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tadr-fads-for-screening-proline-hydroxylase-mutants-in-vivo" class="md-nav__link">
+    TADR-FADS for screening proline hydroxylase mutants in vivo
+  </a>
+  
+    <nav class="md-nav" aria-label="TADR-FADS for screening proline hydroxylase mutants in vivo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gfp-target-degradation-mediated-by-mf-lon-protease-and-gfp-pdt-system" class="md-nav__link">
+    GFP target degradation mediated by mf-lon protease and GFP-pdt system
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#process-of-targeted-artificial-dna-replisome-tadr-technology" class="md-nav__link">
+    Process of targeted artificial DNA replisome (TADR) technology
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preparation-of-microfluid-chips-and-microfluid-devices" class="md-nav__link">
+    Preparation of microfluid chips and microfluid devices
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#screen-proline-hydroxylase-mutants-in-vivo" class="md-nav__link">
+    Screen proline hydroxylase mutants in vivo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#activity-assay-of-proline-hydroxylase" class="md-nav__link">
+    Activity assay of proline hydroxylase
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#improved-cfps-reaction-to-synthesize-collagen-and-elastin" class="md-nav__link">
+    Improved CFPS Reaction to synthesize collagen and elastin
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../results/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Results
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Documentation
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Documentation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documentation/protocols/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protocols
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#analysis-of-collagen-family-expression-and-function" class="md-nav__link">
+    Analysis of collagen family expression and function
+  </a>
+  
+    <nav class="md-nav" aria-label="Analysis of collagen family expression and function">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#transcriptomic-and-proteomic-analysis-of-human-tissue-cells" class="md-nav__link">
+    Transcriptomic and proteomic analysis of human tissue cells
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tertiary-structure-prediction-by-alphafold2-and-amino-acid-mutation-analysis" class="md-nav__link">
+    Tertiary structure prediction by AlphaFold2 and amino acid mutation analysis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#physiological-and-pathological-analysis" class="md-nav__link">
+    Physiological and pathological analysis
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#strains-and-plasmids" class="md-nav__link">
+    Strains and plasmids
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#artp-pance-for-screening-intein-and-t7-rnap-mutants-in-vivo" class="md-nav__link">
+    ARTP-PANCE for screening intein and T7 RNAP mutants in vivo
+  </a>
+  
+    <nav class="md-nav" aria-label="ARTP-PANCE for screening intein and T7 RNAP mutants in vivo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#inactive-kanamycin-resistance-gene-recovery-experiment" class="md-nav__link">
+    Inactive kanamycin resistance gene recovery experiment
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#primary-m13-phage-preparation" class="md-nav__link">
+    Primary M13 phage preparation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#process-of-artp-pance" class="md-nav__link">
+    Process of ARTP-PANCE
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#activity-assay-of-mxe-gyra-intein" class="md-nav__link">
+    Activity assay of Mxe GyrA intein
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#activity-assay-of-t7-rna-polymerase" class="md-nav__link">
+    Activity assay of T7 RNA polymerase
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#collagen-and-elastin-purification" class="md-nav__link">
+    Collagen and elastin purification
+  </a>
+  
+    <nav class="md-nav" aria-label="Collagen and elastin purification">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#chromatography-free-purification-method-for-collagen-tripeptide-mediated-by-intein" class="md-nav__link">
+    Chromatography-free purification method for collagen tripeptide mediated by intein
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#collagen-and-elastin-purification-by-affinity-chromatography" class="md-nav__link">
+    Collagen and elastin purification by affinity chromatography
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crispr-associated-transposon" class="md-nav__link">
+    CRISPR-associated transposon
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tadr-fads-for-screening-proline-hydroxylase-mutants-in-vivo" class="md-nav__link">
+    TADR-FADS for screening proline hydroxylase mutants in vivo
+  </a>
+  
+    <nav class="md-nav" aria-label="TADR-FADS for screening proline hydroxylase mutants in vivo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gfp-target-degradation-mediated-by-mf-lon-protease-and-gfp-pdt-system" class="md-nav__link">
+    GFP target degradation mediated by mf-lon protease and GFP-pdt system
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#process-of-targeted-artificial-dna-replisome-tadr-technology" class="md-nav__link">
+    Process of targeted artificial DNA replisome (TADR) technology
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preparation-of-microfluid-chips-and-microfluid-devices" class="md-nav__link">
+    Preparation of microfluid chips and microfluid devices
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#screen-proline-hydroxylase-mutants-in-vivo" class="md-nav__link">
+    Screen proline hydroxylase mutants in vivo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#activity-assay-of-proline-hydroxylase" class="md-nav__link">
+    Activity assay of proline hydroxylase
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#improved-cfps-reaction-to-synthesize-collagen-and-elastin" class="md-nav__link">
+    Improved CFPS Reaction to synthesize collagen and elastin
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="materials-and-methods">Materials and methods</h1>
+<h2 id="analysis-of-collagen-family-expression-and-function">Analysis of collagen family expression and function</h2>
+<h3 id="transcriptomic-and-proteomic-analysis-of-human-tissue-cells"><strong><em>Transcriptomic and proteomic analysis of human tissue cells</em></strong></h3>
+<p>Healthy human tissue RNA-seq and single cell RNA-seq was downloaded from The Human Protein Atlas, Tissue-specific Gene Expression and Regulation, Genotype-Tissue Expression Project, Illumina Body Map, FAMTON5, ENCODE and The European Bioinformatics Institute and NCBI GEO database (Table S1). RNA-seq data is processed according to the method from previous report (Zoabi and Shomron, 2021). RNA and protein expression atlas was analyzed and demonstrated by R studio.</p>
+<h3 id="tertiary-structure-prediction-by-alphafold2-and-amino-acid-mutation-analysis">Tertiary structure prediction by AlphaFold2 and amino acid mutation analysis</h3>
+<p>Protein tertiary structure was predicted using AlphaFold2 (Bkunyun Platform, https://www.bkunyun.com/index.html?source=360E8&amp;other=). Those structures with the highest score were picked for the next analysis, and the relevant PDB files were compared by UCSF Chimera. The identified DNA mutation sites were verified by sanger sequencing and corresponding amino acid mutants were labelled within the structure. The re-constructed structure was also predicted by AlphaFold2 and the relevant amino acid side chain changes were exhibited by UCSF Chimera. Disorder regions and conversation were both predicted by IUPred3.</p>
+<h3 id="physiological-and-pathological-analysis">Physiological and pathological analysis</h3>
+<p>Disease-related point mutation data derived from NCBI ClinVar database were calculated and plotted by R studio. Patient prognosis data are derived from The Cancer Genome Atlas database, Gene Expression Profiling Interactive Analysis and PrognoScan database. Collagen interact proteins data were downloaded from The STRING database, and the GO analysis was performed using the package of R studio. CRISPR screen data of collagen was downloaded and analyzed from the BioGRID database. Databases were showed in Table S1. </p>
+<h2 id="strains-and-plasmids">Strains and plasmids</h2>
+<p>All strains and plasmids were showed in Table S4. DNA of T7 RNAP, pIII-N-tripeptide-Mxe GyrA intein-N, ELN, CO3A1, Mxe GyrA intein-C-pIII-C, pT7-CO3A1-GyrA-6his-pIII, GyrA-tripeptide, T7 terminator, pTrc-Kana (Q5X, L23X), LE-pTrc-T7 RNAP-terminor-RE, LE-pTrc-mf-lon-terminator-pT7-LacO-GFP-pdt-terminator-RE, LE-pBAD-cisA-RepΔ33-T5 DNAP(D164A, E166A, A593R)-RE,  pTac-cisA initial site-moumou_P4Hc_cisA terminal site were synthesized from the IGE Biotechnology Co., Ltd (Guangzhou, China) after codon optimization of E. coli in coding region. Mxe GyrA intein-C-pIII-C, pT7-CO3A1-GyrA-6his-pIII, pT7-CO3A1-GyrA<em>-6his-pIII and pT7-terminator-CO3A1-GyrA</em>-6his-pIII DNA was inserted to pJC175e plasmid to replace PSPO-gIII gene. RE-pTrc-T7 RNAP-terminor-LE, RE-pTrc-T7 RNAP*-terminor-LE, RE-pTrc-mf-lon-terminator-pT7-LacO-GFP-pdt-terminator-LE DNA were inserted to pQcascade-IS1. cisA-RepΔ33-T5 DNAP (D164A, E166A, A593R) DNA was and inserted to pBAD18. pTac-cisA initial site-moumou_P4Hc_cisA terminal site was synthesized and inserted to pET28a skelecton. Self-circularized ribozyme(Qu et al., 2022) and tRNA clusters were inserted to correspondingly CO3A1 and ELN plasmid.
+All these plasmids were constructed from the IGE Biotechnology Co., Ltd (Guangzhou, China).</p>
+<h2 id="artp-pance-for-screening-intein-and-t7-rnap-mutants-in-vivo">ARTP-PANCE for screening intein and T7 RNAP mutants in vivo</h2>
+<h3 id="inactive-kanamycin-resistance-gene-recovery-experiment"><strong><em>Inactive kanamycin resistance gene recovery experiment</em></strong></h3>
+<p>1 μg of MP4 plasmid was transformed into DH5a strain carrying with sfGFP-Kana (Q5X, L23X) plasmid. Monoclonal strain was cultured in LB medium with 10 mM L-arabinose 100 mg/L Ampicillin for 24 h at 37°C. Plasmid was extracted and transformed in BL21 (DE3) strain. DH5a strain carrying with sfGFP-Kana (Q5X, L23X) plasmid was mutated by ARTP for 30 s with 4 times in room temperature, then transfer it to 1 ml LB medium with 100 mg/L ampicillin. Cultured at 37 °C overnight, plasmid was extracted and transformed in BL21(DE3) strain equally. The transformed BL21(DE3) strain was coated on LB plates with 200 mg/L kanamycin and 0.1 mM IPTG. Clone number of GFP strain was calculated under the blue light.  </p>
+<h3 id="primary-m13-phage-preparation"><strong><em>Primary M13 phage preparation</em></strong></h3>
+<p>DNA fragments of T7 RNAP (with primer T7 RNAP-F/R) and pIII-N-tripeptide-Mxe GyrA intein-N (with primer gIIIGyrA-NF/R) were amplified by High Fidelity DNA Polymerase (Yeasen Biotechnology) using synthesized gene as template. M13 genome skelecton without gIII was amplified using M13 phage as template, with primer M13-F/R. DNA fragments of T7 RNAP and pIII-N-tripeptide-Mxe GyrA intein-N were respectively cloned into M13 genome skelecton using Multi One Step Cloning Kit (Yeasen Biotechnology). Cloning product was transformed in to S1030 strain containing pJC175e plasmid. The supernatant was diluted and infected into fresh S1030-pJC175e strain to determinate titer using the bilayer agarose plate method (Miller et al., 2020). Monoclonal phage was picked into fresh S1030-pJC175e strain to amplification. Bacterial PCR was applied to identify the correctness of fragment insertion, and PCR product was further verified by Sanger sequencing. Primers were showed in Table S5.</p>
+<h3 id="process-of-artp-pance"><strong><em>Process of ARTP-PANCE</em></strong></h3>
+<p>PANCE was processed according to previous report (Miller et al., 2020), we used the MP4 as mutagenesis plasmid. Every round of ARTP-PANCE was divided into three steps. Firstly, primary M13 phage of GyrA or T7 RNAP was added into 100 μL fresh S1030 strain containing corresponding accessory plasmid. After incubation, the bacterial precipitate was re-suspended and mutated by ARTP (30 s, 120 W) treatment for 4 times, and then diluted to 10 mL. The titer of M13 phage was determined by DNA-LAMP method using LAMP Kit (Yeasen Biotechnology). Reaction mix was incubated at 63 °C for 10-20 min. The mutant strain was cultured at the temperature of 37 °C and at the rotate speed of 100 rpm. Phage titer was detected using DNA LAMP every 2 h, until that phage titer was up to 106 CFU/mL. If the phage titer was still lower than 106 CFU/mL, S1030-pJC175e was employed in amplifying the M13 phage. Finally, progeny M13 phage was obtained by collect the supernatant. The progeny of initial M13 phage was used as primary phage in the next round of ARTP-PANCE.</p>
+<h3 id="activity-assay-of-mxe-gyra-intein"><strong><em>Activity assay of Mxe GyrA intein</em></strong></h3>
+<p>SDS-PACE and western blot were performed according to previous reported (Fang et al., 2023) using HRP-conjugated His-tag, Mouse mAb as antibody and Enhanced ECL Kit (Yeasen Biotechnology) as developer region. The ratio of cleaved pIII to uncleaved pIII represents the efficiency of Mxe GyrA intein.</p>
+<h3 id="activity-assay-of-t7-rna-polymerase"><strong><em>Activity assay of T7 RNA polymerase</em></strong></h3>
+<p>Accessory plasmid was transformed into BL21 strain which genome IS1 site was integrated with T7 RNAP. When OD600 value was up to 0.6, a final concentration of 0.5 mM IPTG was added to medium and the strain continue to be cultured overnight at the temperature of 37 °C and at the rotate speed of 200 rpm. Western blot of Anti-6*his tag demonstrated above was used to detect the expression level of CO3A1 protein. Total RNA of these strains was extracted using MolPure® Bacterial RNA Kit (Yeasen Biotechnology, Cat.No. 19301ES50). RT-qPCR was employed in detecting the RNA level of CO3A1 using Hifair® Ⅲ One Step RT-qPCR SYBR Green Kit (Yeasen Biotechnology, Cat.No. 11143ES50). </p>
+<h2 id="collagen-and-elastin-purification">Collagen and elastin purification</h2>
+<h3 id="chromatography-free-purification-method-for-collagen-tripeptide-mediated-by-intein"><strong><em>Chromatography-free purification method for collagen tripeptide mediated by intein</em></strong></h3>
+<p>BL21 (DE3) strain containing pET28a plasmid with GyrA-tripeptide or GyrA*-tripeptide was cultured in LB medium (pH 8.5) with 50 mg/L kanamycin. When OD600 value was up to 0.6, 0.3 mM IPTG was added and cultured overnight. Bacteria was resuspended by 50 ml PBS (pH 9.0, 0.5 M NaCl). After high-pressure distillation and centrifugation, the supernatant used a 10 KDa ultrafiltration tube to intercept proteins above 10 KDa. The pH of the shut-off solution was adjusted to 6-6.5 by hydrochloric acid. After incubated at 30 °C overnight, the reaction product used a 1 KDa ultrafiltration tube to obtain the peptide smaller than 1 KDa. The concentration and purity of fluid-through was tested by HPLC.</p>
+<h3 id="collagen-and-elastin-purification-by-affinity-chromatography"><strong><em>Collagen and elastin purification by affinity chromatography</em></strong></h3>
+<p>When OD600 value was up to 0.6, a final concentration of 0.5 mM IPTG was added to medium and the strain continue to be cultured for overnight at the temperature of 37 °C and at the rotate speed of 200 rpm. After high-pressure distillation and centrifugation, the supernatant was filtered by a 0.22 μm membrane and purified by HisSep Ni-NTA 6FF Chromatography Column according to the instruction manual (Yeasen Biotechnology).</p>
+<h2 id="crispr-associated-transposon">CRISPR-associated transposon</h2>
+<p>CRISPR-associated transposon was performed according to previous reported (Vo et al., 2021). Briefly, BL21 strain containing pTnsABC, pQcascade-IS1 and doner plasmid was cultured in LB medium with 50 mg/L kanamycin and 50 mg/L spectinomycin at OD600 value to 0.6. The stain was induced using 0.2 mM IPTG at 37 °C overnight, and then coated in plates to isolate monoclonal strains. Insert fragments were identified using bacterial PCR, and PCR product was further verified by Sanger sequencing. Positive clones were passaged multiple times in antibiotic-free medium to lose the pTnsABC, pQcascade-IS1 and doner plasmid, until it could not grow in LB medium containing kanamycin or spectinomycin.</p>
+<h2 id="tadr-fads-for-screening-proline-hydroxylase-mutants-in-vivo">TADR-FADS for screening proline hydroxylase mutants in vivo</h2>
+<h3 id="gfp-target-degradation-mediated-by-mf-lon-protease-and-gfp-pdt-system"><strong><em>GFP target degradation mediated by mf-lon protease and GFP-pdt system</em></strong></h3>
+<p>IS1 site in BL21 genome was integrated with pTrc-mf-lon-terminator-pT7-LacO-GFP-pdt-terminator via CRISPR-associated transposases described above. This stain was transformed with plasmid of MP4-pTac-cisA initial site-moumou_P4Hc_cisA terminal site. When OD600 value was up to 0.6, a final concentration of 0.5 mM IPTG was added to medium and the strain continue to be cultured overnight at the temperature of 37 °C and at the rotate speed of 200 rpm. GFP fluorescence intensity of strains is determined using a fluorescent microplate reader.</p>
+<h3 id="process-of-targeted-artificial-dna-replisome-tadr-technology"><strong><em>Process of targeted artificial DNA replisome (TADR) technology</em></strong></h3>
+<p>This BL21 (DE3) stain was transformed with plasmid of pBAD-cisA-RepΔ33-T5 DNAP (D164A, E166A, A593R) and pT7-cisA site-P4Hc. When OD600 value was up to 0.6, a final concentration of 20 mM L- arabinose was added to medium and the strain continue to be cultured for 24 h at the temperature of 37 °C and at the rotate speed of 200 rpm. The plasmid was extracted, and transformed into BL21 (DE3) strain which genome was integrated with mf-lon-pT7-LacO-GFP-pdt.</p>
+<h3 id="preparation-of-microfluid-chips-and-microfluid-devices"><strong><em>Preparation of microfluid chips and microfluid devices</em></strong></h3>
+<p>Microfluidic chips and microfluid devices were built according to the methods previously reported (Beneyton and Rossignol, 2021; Mazutis et al., 2013). Briefly, microfluidic chips were prepared using bypoly(dimethylsiloxane) (PDMS). After degassing under vacuum condition, the mold was cross-linked, punched and bound to glass microscope slide. Finally, hydrophobic surface coating was created and electrode hole were filled with. The optical setup consisted of a Compound Inverted Microscope System (Olympus) mounted on a dampening platform with a 488 nm laser. Emitted light was captured through a 510 nm bandpass filter (510/20-25; Semrock Inc.). A Phantom v4.2 high speed digital camera (Vision Research) was loaded on the microscope to capture light images during droplet manipulation. A dropmaker chip was applied to generate 20 pL droplets at 4000 Hz. Under sorting mode operation, reloading module in which droplets were reloaded (0.2 μL min−1) and spaced-out at a flow-focusing junction with HFE7500 fluorinated oil (3 M) (1 μL min−1). The droplets were sorted by the optical setup at ∼400 Hz.</p>
+<h3 id="screen-proline-hydroxylase-mutants-in-vivo"><strong><em>Screen proline hydroxylase mutants in vivo</em></strong></h3>
+<p>The strains containing P4Hc mutant library was cultured in LB medium with 50 mg/L kanamycin. When OD600 value was up to 0.6, the strains were diluted by LB medium with 50 mg/L kanamycin to OD600 value at 0.05 (OD600 of 1 corresponded to 5 × 108 cells per mL), and used as the liquid phase in FADS described above.</p>
+<h3 id="activity-assay-of-proline-hydroxylase"><strong><em>Activity assay of proline hydroxylase</em></strong></h3>
+<p>Total proteins of E. coli were extracted using Bacterial Protein Extraction Kit (Sangon Biotech, Cat.No. C600596) and quantitated by BCA Protein Quantification Kit (Yeasen Biotechnology, Cat.No. 20201ES76). Proline hydroxylation level was determined by Hydroxyproline (HYP) content detection kit (Solarbio Life Sciences, Cat.No. BC0250).</p>
+<h2 id="improved-cfps-reaction-to-synthesize-collagen-and-elastin">Improved CFPS Reaction to synthesize collagen and elastin</h2>
+<p>The CPFS system was designed according to the methods previously reported (Des Soye et al., 2019; Jewett et al., 2008). Specifically, an improved CFPS reaction was assembled by mixing the following components: 50 mM HEPES, pH 7.2; 3 mM ATP and GTP, 0.1 mM UTP, and CTP; 34 mg/mL folinic acid; 100 mg/mL of E. coli tRNA mixture; 15 mg/mL plasmid or DNA; 1 mM for each of the 20 standard amino acids; 5 mM glycine, proline and 2-oxoglutarate; 0.33 mM nicotinamide adenine dinucleotide (NAD); 0.27 mM coenzyme-A (CoA); 1 mM putrescine; 4 mM sodium oxalate; 1.5 mM spermidine; 130 mM potassium glutamate; 10 mM ammonium glutamate; 12 mM magnesium glutamate; 33 mM phosphoenolpyruvate (PEP), and 30% v/v of cell extract. CFPS reaction was incubated for 8 h at 37 °C.  </p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2023 iDEC. CC-BY-4.0 | The International Directed Evolution Competition (iDEC) is a Scottish Charitable Incorporate Organisation (SCIO), registered in Scotland, with charity number：SC050826
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.aecac24b.min.js"></script>
+      
+        <script src="../../javascripts/config.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
+      
+        <script src="../../javascripts/tables.js"></script>
+      
+    
+  </body>
+</html>
