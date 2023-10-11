@@ -14,7 +14,8 @@ To improve the collagen synthetic ability in vivo and vitro, we developed multi-
 
 - Moreover, in the RNA stability and translation layer, we improved the cell-free protein synthesis (CFPS) system using metabolic compensation and self-circularized ribozyme in vitro.
 
-**Results:**
+**Results:**  
+
 We obtained the T7 RNAP mutant, which possessed 2.3-fold higher performance in CO3A1 gene transcription. We also identified the Moumou_P4Hc mutant with 2.6-fold stronger activity to hydroxylate proline in CO3A1. By integrating these mutant genes into the genome of Escherichia coli BL21 using CRISPR-associated transposon, the yields of CO3A1 and elastin reached 0.013 and 0.047 g/L in vivo, respectively. Further, the cell-free protein synthesis (CFPS) system improvements significantly increased the yield of CO3A1 and elastin to 0.31 and 2.58 g/L, respectively. These results are of great significance for the industrial production and application of collagen.
 
 **Keywords**: Collagens, ARTP-PANCE, TADR-FADS, T7 RNAP, Proline hydroxylase, CFPS, self-circularized ribozyme
